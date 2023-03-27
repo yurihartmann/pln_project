@@ -1,0 +1,1787 @@
+<html><head>
+        <link rel="stylesheet" id="mainStyle" href="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/geral.css" type="text/css">
+        <title>SIPEX - Projetos de Extensão</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta http-equiv="PRAGMA" content="NO-CACHE">
+        
+		 <!-- Java Script Ajax e Help -->
+		<script src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/prototype.js" language="JavaScript" type="text/javascript"></script>
+		<script src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/utilAjax.js" language="JavaScript" type="text/javascript"></script>
+		<script src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/effects.js" type="text/javascript"> </script>
+		<script src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/window.js" type="text/javascript"> </script>
+		<script src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/window_effects.js" type="text/javascript"> </script>
+		
+		<!--CSS Ajax e Help -->
+		<link href="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/default.css" rel="stylesheet" type="text/css">
+		<link href="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/alphacube.css" rel="stylesheet" type="text/css">
+    </head>
+    <body topmargin="0" rightmargin="0" marginwidth="0" marginheight="0" leftmargin="0" bottommargin="0" bgcolor="#ffffff">
+	    <table width="100%">
+	        <tbody>
+	            <tr><td colspan="2" width="100%" height="80">
+
+
+<div id="banner">
+    <div style="background-color: #00549A; height: 55px; border-bottom: 3px solid #FFCC00;">
+		<div style="float: left; display: inline; margin: 0 20px">
+			<a href="http://www.furb.br/" id="organizationLogo">
+		        <img alt="FURB - Universidade Regional de Blumenau" style="margin-top: 8px;" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/logo-furb-60x40.png">
+		    </a>						
+		</div>
+		<h1 style="font: 15pt Arial, Helvetica, sans-serif; color: #FFFFFF; line-height: 40px; padding: 8px;">SIPEX - Sistema Integrado de Pesquisa e Extensão</h1>
+	</div>
+
+       <b>Pessoa: </b> <i>Aurélio Faustino Hoppe</i>
+
+    <div class="clear"></div>				 	           
+</div></td></tr>
+	            <tr><td colspan="2" width="100%">
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td>
+    </td>      
+  </tr>  
+</tbody></table></td></tr>
+	            <tr>
+	            	<td width="15%" valign="top">
+
+
+
+
+
+  
+<table width="100%" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<td>
+			<table cellspacing="0" cellpadding="0">
+		
+
+				<tbody><tr>
+					<td class="grupoMenu">
+					<b>Pessoal</b></td>
+				</tr>		
+				<tr>
+					<td>
+						<ul class="glossymenu">
+							<li><a href="https://www.furb.br/pqex/projeto/mantemCurriculo.do">Currículo</a></li>
+							<li><a href="https://www.furb.br/pqex/projeto/buscaProjetoPessoa.do?flMenu=S&amp;flApoio=N">Meus Projetos</a></li>
+							<li><a href="https://www.furb.br/pqex/projeto/mantemAreaQualis.do">Área de Avaliação Qualis e Registros Científicos</a></li>
+
+							<li><a href="https://www.furb.br/pqex/ProjetoManutencao/excluirProjeto.do">Excluir Projeto</a></li>						
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="grupoMenu">
+					<b>Editais FURB</b></td>
+				</tr>
+
+				<tr>
+					<td width="100%">
+						<ul class="glossymenu">	
+							<li>				 
+								<a href="https://www.furb.br/pqex/projeto/exibeEdital.view">Editais Abertos</a>							 
+							</li>	
+						</ul>			
+					</td>
+				</tr> 			
+
+				<tr><td class="grupoMenu"><b>Cadastrar Projetos</b></td></tr>
+				<tr>
+					<td>
+						<ul class="glossymenu">	
+							<li>
+								<a href="https://www.furb.br/pqex/ProjetoManutencao/editaProjeto.do?tpFormulario=1&amp;parteApresentacaoForm=PARTE1&amp;cdTipoPrograma=84">Pesquisa com<br>Fomento Externo</a>	
+								<a href="https://www.furb.br/pqex/ProjetoManutencao/editaProjeto.do?tpFormulario=6&amp;parteApresentacaoForm=PARTE1&amp;cdTipoPrograma=83">Pesquisa sem<br> Fomento Externo</a>		
+								<a href="https://www.furb.br/pqex/ProjetoManutencao/editaProjetoExtensao.do">Extensão</a>  
+							</li>	
+						</ul>  
+					</td>
+				</tr>
+				<tr><td class="grupoMenu"><b>Projetos da FURB</b></td></tr>
+				<tr>
+					<td>
+						<ul class="glossymenu">
+							<li><a href="https://www.furb.br/pqex/projeto/ExibeFormularioBuscaProjeto.view">Buscar Projetos</a></li>
+						</ul>
+					</td>
+				</tr>		
+	
+				<tr>
+					<td>
+						<ul class="grupoMenu">
+							<li><b>S I P E X</b></li>
+						</ul>
+					</td>
+				</tr>					
+				<tr>
+					<td>
+						<ul class="glossymenu">
+							<li>
+								<a href="#" onclick="openHelp('pqex','ajuda.html' ,'Ajuda do Sistema Integrado de Pesquisa e Extensão','700', '400');return false;">Ajuda para Pesquisa</a>
+							</li> 
+							<li>
+								<a href="#" onclick="openHelp('pqex','ajudaExtensao.html' ,'Ajuda do Sistema Integrado de Pesquisa e Extensão','700', '400');return false;">Ajuda para Extensão</a>
+							</li>  
+               				<li><a href="mailto:propex@furb.br">Fale conosco</a></li>					
+							<li><a href="https://www.furb.br/pqex/sair.view">Sair</a></li>
+						</ul>
+					</td>
+				</tr>	
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+</td>
+	                <td width="85%" valign="top" align="left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+
+	function controlaCamada(nomeDiv,nomeImagem) {
+		if( document.getElementById(nomeDiv).style.visibility == "hidden" ) {
+			document.getElementById(nomeDiv).style.visibility = "visible";
+			document.getElementById(nomeDiv).style.display='';
+			document.images[nomeImagem].src="/pqex/img/hide.jpg";
+		} else {
+			document.getElementById(nomeDiv).style.visibility = "hidden";
+			document.getElementById(nomeDiv).style.display="none";
+			document.images[nomeImagem].src="/pqex/img/show.jpg";
+		}
+	}
+</script>
+
+<table width="100%">
+	<tbody><tr><td colspan="3" align="left"></td></tr>
+	<tr>
+
+		<td nowrap="nowrap" align="center">
+			<a href="https://www.furb.br/pqex/projeto/imprimeProjeto.view?nrAnoProjeto=2022&amp;nrProjeto=196&amp;nmRelatorio=pqex_form10" target="impressaoProjeto" id="impressaoProjeto" class="cssbutton">Imprimir Projeto</a>
+		</td>
+
+		<td nowrap="nowrap" align="center">
+			
+			
+				<a href="https://www.furb.br/pqex/ProjetoManutencao/download.view?attachmentGroup=projeto&amp;attachmentID=12299" target="Anexo" class="cssbutton">Visualizar Anexo</a>
+			
+		</td>
+
+	</tr>
+</tbody></table>
+<table width="100%">
+	<tbody><tr>
+		<td>
+			<div id="item1" class="itemProjeto" onclick="controlaCamada('div1','img1');">
+				<img name="img1" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Tramitação
+			</div>
+			<div id="div1">
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr>
+						<th align="left">Data</th>
+						<th align="left">Situação</th>
+						<th align="left">Pessoa</th>
+						<th align="left">Observação</th>
+					</tr>
+
+					<tr class="a">
+						<td>11/04/2022 15:06</td>
+						<td>Em elaboração</td>
+						<td>Aurélio Faustino Hoppe</td>
+						<td> </td>
+					</tr>
+
+					<tr class="b">
+						<td>17/04/2022 23:44</td>
+						<td>Em avaliação</td>
+						<td>Aurélio Faustino Hoppe</td>
+						<td> </td>
+					</tr>
+
+					<tr class="a">
+						<td>09/05/2022 10:10</td>
+						<td>Em execução</td>
+						<td>Fabrício Gustavo Gesser Cardoso</td>
+						<td>Projeto Aprovado conforme resultado do Edital PROPEX Nº07/2022</td>
+					</tr>
+
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item2" class="itemProjeto" onclick="controlaCamada('div2','img2');">
+				<img name="img2" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Dados Gerais
+			</div>
+			<div id="div2">
+				<table width="100%" cellspacing="1" cellpadding="1">
+
+					<tbody><tr class="a">
+						<td width="20%"><b>Modalidade:</b></td>
+						<td>Projeto de Extensão - Projeto 2020</td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Título:</b></td>
+						<td>196/2022&nbsp; <b>Furb e sua importância para o desenvolvimento regional</b></td>
+					</tr>
+
+					<tr class="a">
+						<td width="20%"><b>Proponente:</b></td>
+						<td><b>Aurélio Faustino Hoppe</b></td>
+					</tr>
+					<tr class="a">
+						<td width="20%"></td>
+						<td>
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+									<td>Titulação:</td>
+									<td>
+
+										Mestrado em Ciência da Computação<br>
+
+									</td>
+								</tr>
+								<tr>
+									<td>Cargo:</td>
+									<td>Prof.Universitário
+										- TEMPO INTEGRAL
+									</td>
+								</tr>
+								<tr>
+									<td>Depto/Setor:</td>
+									<td>Departamento de Sistemas  e Computação</td>
+								</tr>
+								<tr>
+									<td>Endereço eletrônico:</td>
+									<td>aurelio.hoppe@gmail.com</td>
+								</tr>
+								<tr>
+									<td>Endereço eletrônico(FURB):</td>
+									<td>aureliof@furb.br</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Fone ou e-mail do Proponente:</b></td>
+						<td>aureliof@furb.br</td>
+					</tr>
+
+					<tr class="a">
+						<td width="20%"><b>Site do projeto:</b></td>
+						<td><a href="https://www.furb.br/" target="urlProjeto">https://www.furb.br/</a></td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Resumo:</b></td>
+						<td>A Universidade Regional de Blumenau foi criada em 1964 a 
+partir da necessidade de formação qualificada. Ao longo de sua história,
+ a FURB sempre esteve preocupada em atender as demandas regionais sejam 
+de ensino, pesquisa ou extensão. Nesse período, foram desenvolvidos 
+diversos projetos que tinham o intutuito de melhorar a competitividade 
+industrial e a qualidade de vida da comunidade regional. Diante deste 
+contexto, este projeto tem como objetivo examinar a importância da FURB 
+para o desenvolvimento da região. Para isso, serão realizadas 
+entrevistas in loco e análise dos dados dos projetos já executados para 
+caracterizar o perfil dos grupos que possuem interação com a 
+universidade, quais são suas demandas, de que formas elas são atendidas e
+ seus impactos. Tais informações serão sumarizadas em 6 dimensões de 
+análise: (i) Demanda Agregada; (ii) Ambiente Cultural; (iii) Dinamização
+ do Ambiente Empresarial; (iv) Geração de Emprego e Renda; (v) 
+Dinamização das Economias Regionais e (vi) Modificação da Infraestrutura
+ Local. A partir disso, será criada uma plataforma de acesso livre para 
+divulgação das ações/eventos realizados pela universidade, assim como 
+também pretende-se estabelecer uma forma de se avaliar os impactos 
+diretos e indiretos de projetos de extensão. Portanto, espera-se que a 
+partir do levantamento realizado por este projeto, a FURB possa 
+direcionar ainda mais as suas ações de acordo com as necessidades da 
+comunidade regional e, da mesma forma, permitindo ou facilitando uma 
+participação mais ativa da comunidade dentro da universidade.</td>
+					</tr>
+
+					<tr class="a">
+						<td width="20%"><b>Depto/Instituto:</b></td>
+						<td>Departamento de Sistemas  e Computação</td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Data de Início:</b></td>
+						<td>05/2022</td>
+					</tr>
+
+					<tr class="a">
+						<td width="20%"><b>Duração (em meses):</b></td>
+						<td>21</td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Data de conclusão:</b></td>
+
+						<td>01/2024</td>
+					</tr>
+
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Palavras-Chave</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th colspan="2" align="left">Palavras-Chave</th>
+								</tr>
+
+								<tr class="b">
+
+									<td>Ações de ensino, pesquisa e extensão ; Desenvolvimento regional ; FURB ; Impactos ; Importância ; Sociedade ; </td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item3" class="itemProjeto" onclick="controlaCamada('div3','img3');">
+				<img name="img3" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Projeto de Extensão
+			</div>
+			<div id="div3">
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Áreas de conhecimento - CNPq (máximo 3)</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Grande Área</th>
+									<th align="left">Área</th>
+									<th align="left">Subárea</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>Ciências Exatas e da Terra</td>
+									<td>Ciência da Computação</td>
+									<td>Metodologia e Técnicas da Computação</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Ciências Exatas e da Terra</td>
+									<td>Matemática</td>
+									<td>Análise</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Ciências Sociais Aplicadas</td>
+									<td>Planejamento Urbano e Regional</td>
+									<td>Métodos e Técnicas do Planejamento Urbano e Regional</td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Áreas Temáticas - FURB</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Área Temática</th>
+									<th align="left">Subárea Temática</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>Tecnologia</td>
+									<td>Popularização da Ciência e Tecnologia</td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Co-partícipes (parceiros)</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Parceiro</th>
+									<th align="left">Nome</th>
+									<th align="left">Relação com o projeto</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>Setor privado</td>
+									<td>Fundação Fritz Muller</td>
+									<td>Fornecer dados sobre empreendedorismo e demandas 
+empresariais regionais. Comunicar e divulgar as ações e resultados do 
+projeto. Participar da avaliação dos resultados parciais e gerais.</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Setor público</td>
+									<td>Programa de pós-graduação em Desenvolvimento Regional - PPGDR</td>
+									<td>O PPGDR irá contribuir com material intelectual para a 
+interpretação territorial dos dados, vinculando-a ao contexto do 
+desenvolvimento regional.</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Setor público</td>
+									<td>Setores internos da FURB (DAEX, PROPEX, COPLAN, RESERVA DE SALAS)</td>
+									<td>Os setores internos da universidade irão contribuir com o 
+fornecimentos das informações sobre ensino, pesquisa, extensão e 
+prestação de serviços. Além disso, os cursos de graduação e 
+pós-graduação também irão fornecer sobre os eventos a serem realizados 
+(bancas de TCCs, dissertação, teses, workshops, semanas acadêmicos, etc)</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Setor público</td>
+									<td>SIGAD FURB</td>
+									<td>O SIGAD - Sistema de Informações Gerenciais e de Apoio à 
+Decisão tem por objetivo gerar dados relevantes para o processo de 
+tomada de decisão de investimentos públicos e privados em Blumenau e 
+região. É um projeto do Observatório de Desenvolvimento Regional e 
+disponibilizará sua base de dados e sistema para o projeto. </td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Sociedade civil organizada</td>
+									<td>Centro de Inovação de Blumenau</td>
+									<td>Fornecer dados sobre a inovação da região. Comunicar e 
+divulgar as ações e resultados do projeto. Participar da avaliação dos 
+resultados parciais e gerais.</td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item4" class="itemProjeto" onclick="controlaCamada('div4','img4');">
+				<img name="img4" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Detalhamento da Proposta
+			</div>
+			<div id="div4">
+				<table width="100%" cellspacing="1" cellpadding="1">
+
+					<tbody><tr class="b">
+						<td nowrap="nowrap"><b>Justificativa:</b></td>
+						<td>
+							O que esperamos, o que desejamos e qual papel imaginamos para a 
+FURB em 2030 e o que ela já produziu durante sua história? E nesse 
+percurso temporal, quais as tendências e transformações geradas pelas 
+universidades no contexto regional.
+<br>De acordo com Goebel e Miura ( 2004), a universidade em seu papel de
+ ensino, pesquisa e extensão contribui para o desenvolvimento econômico 
+social dando suporte científico e tecnológico, além de ser um 
+dinamizador do crescimento e desenvolvimento das regiões onde estão 
+instaladas. Além disso, também promove mudanças socioeconômicas gerando 
+desenvolvimento econômico, cultural e social, buscando através de suas 
+atividades básicas identificar as necessidades de formação acadêmica 
+vinculadas à necessidade da sociedade.
+<br>Para Hoff, San Martin e Sopeña (2017) os impactos promovidos pelas 
+universidades podem apresentar um caráter direto, na medida em que há 
+uma participação na dinâmica econômica da região, seja por meio de 
+geração de emprego e renda, fomento a financiamento e projetos, dentre 
+outros, mas também por apresentar impactos indiretos, relacionados à 
+produção e difusão de conhecimentos que influenciam nas mudanças 
+socioculturais da região.
+<br>Assim sendo, as universidades interagem com o seu meio como agentes 
+para o desenvolvimento e mudanças das estruturas sociais, econômicas e 
+políticas (CARVALHO, 2008). Desta forma, evidencia-se a necessidade de 
+mensuração do desempenho institucional para com a região, uma vez que 
+isso possibilitará uma visão integrada das reais contribuições de 
+desenvolvimento proposto não apenas em seu entorno, mas na região em que
+ está inserida.
+<br>
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td nowrap="nowrap"><b>Relevância:</b></td>
+						<td>
+							Dentre os mais de 58 anos de atuação, atualmente, pouco se sabe 
+sobre a importância da FURB no contexto regional: quais são as 
+principais demandas da região e, de que forma, ela poderia suprir tais 
+necessidades? Quais são as parcerias que a FURB possui? Quais são as 
+áreas de maior atuação dos projetos de pesquisa, extensão e prestação de
+ serviços? Que parcerias institucionalizadas pela universidade focam na 
+melhoria de grupos regionais? Estas relações são utilizadas para nortear
+ o seu planejamento estratégico? São criadas políticas institucionais 
+que de acordo com as necessidades da comunidade? A FURB ainda é um autor
+ de destaque para o desenvolvimento e resolução de problemas da região? 
+<br>Diante destas questões, este projeto torna-se importante, pois 
+objetiva qualificar essas relações afim de torná-las norteadoras para o 
+desenvolvimento de ações que possam reforçar a importância e atuação da 
+FURB na região. Acredita-se que este projeto irá auxiliar na 
+consolidação do ensino, pesquisa, extensão e prestação de serviços da 
+universidade, servindo fonte de consulta para próximos projetos ou 
+editais, além de poder ajudar no processo de avaliação estratégica, 
+modelando novas diretrizes e metas para melhorar sua integração com 
+outros atores da sociedade. Além disso, também se torna relevante pelo 
+ineditismo em relação ao levantamento/consolidação de informações e 
+interpretação dos impactos gerados a partir das ações geradas pela 
+universidade de forma geral (ensino, pesquisa, extensão e prestação de 
+serviço) e qual é a percepção e satisfação dos grupos atendidos.
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td nowrap="nowrap"><b>Marco Teórico:</b></td>
+						<td>
+							Se nos primeiros anos após a sua fundação (FURB), em 1964, não se
+ lhe atribuía maior importância, de meados dos anos 1980 em diante ela 
+passou a exercer crescente  influência sobre o desenvolvimento 
+socioeconômico da microrregião de Blumenau. Sua evolução pode ser 
+dividida em quatro fases principais (MATTEDI, 2001).
+<br>O período inicial se estende dos anos 1950 a 1965, compreendendo a 
+mobilização da sociedade civil local e sua fundação. O segundo período, 
+de meados dos anos 1960 até  aproximadamente 1980, caracteriza a 
+consolidação da universidade. Nesse tempo, os principais atores sociais 
+descobriram a relevância da universidade para a economia  regional. O 
+terceiro período, de 1980 em diante, compreende dois momentos. De 1980 a
+  1990, um momento de expansão física ¿ de cursos, consequentemente, de 
+estudantes e  professores. De 1990 em diante as atividades 
+diversificam-se, mas com um novo foco. Neste período, preferiu-se dar 
+maior atenção à pesquisa e à extensão, a áreas estratégicas  do 
+conhecimento e a programas de pós-graduação
+<br>No decorrer da sua trajetória, ampliou atividades de ensino, 
+pesquisa e extensão, prestando serviços especializados e de interesse 
+público, como o Projeto Crise (1983), o qual deu origem ao Instituto de 
+Pesquisas Ambientais (IPA) em 1995. Nessa década, também foi criado o 
+Instituto de Pesquisas Sociais (IPS).
+<br>No campo da extensão cultural, a FURB inaugurou a sua editora, a 
+EDIFURB, em 1986, e promoveu, em 1987, a primeira edição do Festival 
+Universitário de Teatro, atual Festival Internacional de Teatro 
+Universitário de Blumenau (FITUB). 
+<br>A década de 1990 iniciou-se atendendo a antigos anseios da 
+comunidade universitária, como, por exemplo, o desenvolvimento dos 
+programas de pós-graduação, como o primeiro mestrado da Instituição, o 
+de Educação, criado em 1991. Nessa mesma década são criados ainda os 
+mestrados de Administração e Engenharia Ambiental (ambos em 1998) e 
+Desenvolvimento Regional (1999).
+<br>Em 1999, com a expansão dos cursos na área da saúde, a Universidade 
+inaugurou diversas clínicas (Odontologia, Psicologia e Fisioterapia), 
+visando servir de campo de estágio para os estudantes e prestar 
+atendimento à comunidade, seguindo o exemplo do Serviço Judiciário 
+(1972) e do Ambulatório (1995).
+<br>A Policlínica Universitária, referência a comunidade regional, 
+desenvolve projetos de extensão nas áreas de atenção ao adolescente 
+portador de diabetes, atenção ao portador de Síndrome de Down, 
+ambulatório para tratamento de feridas crônicas e atenção integral ao 
+doente renal Crônico e com afecções neurológicas, entre outras 
+atividades. São atendidos por este serviço, cerca de 70.000 usuários/ano
+ em diversas atividades acadêmicas e assistenciais em que atendem os 
+cursos da área da saúde, Educação Física e Serviço Social.
+<br>Em 2015, visando intensificar mais as áreas de pesquisa, extensão, 
+prestação de serviços e inovação, o Governo do Estado de Santa Catarina 
+assinou a ordem de serviço para o início das obras do Centro de Inovação
+ de Blumenau, tendo sua conclusão em 2019.
+<br>Passadas cinco décadas de existência, a FURB é atualmente um 
+referencial na área de educação. É reconhecida por toda a sociedade, 
+tendo graduado aproximadamente 40 mil profissionais em diversas áreas do
+ saber. Oferece à comunidade mais de 50 cursos de graduação 
+(licenciaturas, bacharelados tecnólogos), dezenas de cursos de 
+pós-graduação lato sensu, 13 programas de mestrado e 04 de doutorado, 
+com reconhecida atuação nas áreas de ensino, pesquisa, extensão e 
+atividades culturais. É reconhecida como polo de conhecimento, pela 
+qualidade de sua contribuição na vida regional, nacional e global 
+(UNIVERSIDADE REGIONAL DE BLUMENAU, 2018).
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td><b>Objetivo Geral:</b></td>
+						<td>
+							Analisar a importância e o papel da FURB para o desenvolvimento 
+socioeconômico da região através da sua interação com a sociedade e 
+setor produtivo ao longo do tempo.
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td><b>Relação entre Ensino, Pesquisa e Extensão:</b></td>
+						<td>
+							Este projeto constitui uma iniciativa que integra as atividades 
+de Ensino, Pesquisa e Extensão. A Constituição Brasileira, em seu artigo
+ 207, estabelece algo chamado de indissociabilidade entre ensino, 
+pesquisa e extensão. Isso significa que as instituições de ensino 
+superior devem trabalhar esses três eixos de forma equivalente. ¿As 
+universidade gozam de autonomia didático-científica, administrativa e de
+ gestão financeira e patrimonial, e obedecerão ao princípio de 
+indissociabilidade entre ensino, pesquisa e extensão." Este projeto 
+compreende, portanto, de um conjunto de ações que integram com tais 
+atividades : a) apropriação da expertise por parte dos bolsistas; b) 
+produção de novos conhecimentos através da pesquisa; c) e a intervenção 
+no contexto social local. Destaca-se também que as ações submetidas 
+também proporcionam, conforme Projeto Pedagógico do Curso (PPC), 
+subsídios que complementam o estudo de conteúdos propostos nas ementas 
+curriculares das disciplinas de Banco de dados, Inteligência artificial,
+ Introdução a análise de dados, Projeto de software, TCC I e II do curso
+ de Ciência da Computação, e a disciplina de Estatística e os projetos 
+de extensão vinculados ao departamento de Matemática, alinhando assim a 
+extensão universitária com a formação inicial dos Acadêmicos de 
+graduação e, que buscam atender a resolução 99/2019 da FURB. 
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td><b>Previsão de avaliação da proposta pelo partícipe e pela equipe executora:</b></td>
+						<td>
+							As ações desenvolvidas no projeto serão avaliadas quantitavamente
+ e qualitativamente. A avaliação qualitativa acontecerá através de 
+questionários que objetivam extrair um parecer sobre as informações 
+disponibilizadas: se elas são úteis, se caracterizam a realidade, se 
+apontam oportunidades e necessidades assim como, demandas por novas 
+informações, entre outros aspectos relevantes da relação entre a Furb e 
+ a sociedade. Os questionários serão compostos de perguntas objetivas e 
+subjetivas e serão disponibilizados aos participantes no final de cada 
+atividade através de formulários eletrônicos ou impressos. Já a 
+avaliação quantitativa acontecerá por meio do monitoramento da 
+quantidade de pessoas que irão participar de rodas de conversa ou pela 
+quantidade de acesso ao site de divulgação das ações de pesquisa e 
+extensão. A partir das informações obtidas nos questionários aplicados a
+ equipe do projeto se reunirá para analisar as atividades desenvolvidas e
+ discutir melhorias futuras.
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td><b>Produtos Previstos:</b></td>
+						<td>
+							Serão desenvolvidos os seguintes produtos durante o período de 
+vigência do projeto: (a) criação de uma plataforma (site) para 
+divulgação dos eventos aos quais  comunidade em pode participar de forma
+ direta (voluntário em projetos de pesquisa e extensão, hackathons) e 
+indireta (bancas de tccs/dissertações e tccs), eventos grupos temáticos,
+ semanas acadêmicas); (b) pelo menos um TCC no curso de Ciência da 
+Computação ou Sistemas de Informação; (c) oficinas e materiais de 
+divulgação dos projetos/ações realizadas pela universidade; (d) um 
+relatório técnico a ser enviado para a gestão da Universidade 
+caracterizando a atuação da FURB na comunidade; (e) esboço de formulário
+ de avaliação e comparação de projetos de extensão; (f) um artigo 
+científico para submissão em periódico ou evento da área.  
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td><b>Inovação:</b></td>
+						<td>
+							A inovação neste projeto é dada pelos seguintes aspectos: (a) 
+levantamento dos dados que quantificação dos impactos gerados pela Furb 
+em termos de desenvolvimento regional; (b) integração entre as áreas 
+Computação-Matemática, possibilitando novos campos de pesquisa e estudo 
+nos cursos relacionados, como também subsídios para o ensino de 
+conteúdos específicos destas áreas a partir da Aprendizagem Baseada em 
+Problemas (PBL); (b) viabilização de uma plataforma (site) que 
+disponibilizará informações ações e atividades aos quais a comunidade 
+pode participar de forma direta e indireta. Com isso, busca-se 
+contribuir com o propósito da universidade de atender as demandas 
+externas a partir de produtos oriundos do ensino, pesquisa e extensão 
+universitária, ampliando a representatividade da FURB em instituições 
+externas, conforme orienta o objetivo 3, meta 8, do Plano de 
+Desenvolvimento Institucional (PDI), e consolidando as ações de extensão
+ da universidade, conforme prevê o objetivo 10, metas 35, 38 e 39, do 
+PDI institucional (UNIVERSIDADE REGIONAL DE BLUMENAU, 2018) e ao 
+Objetivo 9 do Plano de Desenvolvimento Institucional (PDI-2022/2026). 
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td width="20%"><b>Abrangência:</b></td>
+						<td>
+							Regional
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td width="20%"><b>Referências:</b></td>
+						<td>
+							CARVALHO, Célia Christina Silva. Universidade como agente de 
+desenvolvimento local: um estudo do papel da Universidade Estadual de 
+Feira de Santana nos municípios de Amélia Rodrigues e Santo Estêvão de 
+2003 a 2007. Dissertação de Mestrado, Universidade do Estado da Bahia, 
+Salvador, 2008.
+<br>GOEBEL, Márcio Alberto; MIURA, Márcio Nakayama. A Universidade como um fator de
+<br>desenvolvimento: o caso do município de Toledo-PR. Revista Expectativa, v.3, n.3, 2004.
+<br>HOFF, Débora Nayar; PEREIRA, Camila Amaral; DE PAULA, Luis Gustavo Nascimento.
+<br>O impacto da universidade pública no desenvolvimento regional sob a 
+luz da literatura internacional. Redes (Santa Cruz do Sul. Online), v. 
+22, n. 1, p. 510-527, 2017. Disponível em: 
+https://online.unisc.br/seer/index.php/redes/article/view/5915. Acesso 
+em: 15 abr. de 2022.
+<br>MATTEDI, Marcos Antônio. O papel da Universidade Regional de 
+Blumenau no desenvolvimento socioeconômico do Vale do Itajaí, Brasil. 
+In: Anais do Encontro Internacional de Centros de Estudos Universitários
+ sobre o Desenvolvimento Regional. La Serena (Chile), 2001
+<br>UNIVERSIDADE REGIONAL DE BLUMENAU. Plano de desenvolvimento 
+institucional - FURB. Blumenau, 2018. Disponível em: 
+https://www.furb.br/web/4699/institucional/avaliacao/plano-de-desenvolvimento-institucional-pdi.
+ Acesso em: 14 abr. de 2022.
+						</td>
+					</tr>
+
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Partícipes</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Tipo de Partícipe</th>
+									<th align="left">Nome</th>
+									<th align="left">Quantidade Direto</th>
+									<th align="left">Quantidade Indireto</th>
+									<th align="left">Caracterização</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>Comunidade Acadêmica - Acadêmicos</td>
+									<td>Acadêmicos de todos os cursos da Furb, em específico, dos 
+cursos Ciência da Computação e Sistemas de Informação e Matemática e 
+estudantes da Especialização em Data Science e da Pós-Graduação em 
+Desenvolvimento Regional.</td>
+									<td>30</td>
+									<td>100</td>
+									<td>
+										O público diretamente atendido é formado pelos discentes que 
+irão desenvolver atividades a partir do projeto (TCCs, dissertações, 
+teses, estágios, AACCs, curricularização). O público indiretamente 
+atendido constitui-se dos demais discentes dos cursos aos quais terão 
+acessos as informações geradas e disponibilizadas via site/plataforma de
+ comunicação. 
+									</td>
+								</tr>
+									
+
+								<tr class="b">
+
+									<td>Comunidade Acadêmica - Acadêmicos</td>
+									<td>Pessoas que acessam o site/plataforma de divulgação das ações/eventos realizados na universidades</td>
+									<td>1000</td>
+									<td>5000</td>
+									<td>
+										1000 pessoas acessando as informações de forma direta no 
+site/plataforma de comunicação para divulgação das ações/eventos 
+realizados na universidades aos quais comunidade em pode participar de 
+forma direta/indireta e até 5000 da comunidade em geral. Instrumento de 
+pesquisa de satisfação e conhecimento sobre a perspectiva da Modificação
+ da Infraestrutura Local;Demanda Agregada;Ambiente Cultural 
+<br>
+									</td>
+								</tr>
+									
+
+								<tr class="a">
+
+									<td>Comunidade Acadêmica - Acadêmicos</td>
+									<td>Empresários e colaboradores das empresas </td>
+									<td>50</td>
+									<td>400</td>
+									<td>
+										Diretamente através da aplicação do instrumento de pesquisa 
+que estabelecerá a importância da FURB para o desenvolvimento regional 
+(impactos diretos e indiretos sobre a perspectiva da Dinamização do 
+Ambiente Empresarial e Economias Regionais; Geração de Emprego e Renda).
+ Indiretamente através do acesso ao site/canal de comunicação para 
+consulta das informações/eventos realizados na universidade. 
+									</td>
+								</tr>
+									
+
+								<tr class="b">
+
+									<td>Comunidade Acadêmica - Acadêmicos</td>
+									<td>Coordenadores de projetos de pesquisa, extensão e prestação de serviço</td>
+									<td>40</td>
+									<td>150</td>
+									<td>
+										Docentes e técnicos que atendem alguma demanda da comunidade 
+Blumenau e região. Será aplicado instrumento de pesquisa que 
+estabelecerá a importância da FURB para o desenvolvimento regional 
+(impactos diretos e indiretos sobre a perspectiva da Demanda Agregada).
+									</td>
+								</tr>
+									
+
+								<tr class="a">
+
+									<td>Comunidade Externa - Comunidade em geral</td>
+									<td>Participantes externos/atendidos por projetos de pesquisa, extensão e prestação de serviço</td>
+									<td>200</td>
+									<td>1000</td>
+									<td>
+										Aplicação do instrumento de pesquisa de satisfação e 
+conhecimento sobre a perspectiva da Modificação da Infraestrutura Local;
+ Demanda Agregada; Ambiente Cultural. 
+									</td>
+								</tr>
+									
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Objetivos Específicos</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Objetivo Específico</th>
+									<th align="left">Atividade(s)</th>
+									<th align="left">Recursos Utilizados</th>
+									<th align="left">Indicador(s) de Avaliação</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>Identificar as ações de ensino, pesquisa, extensão e prestação de serviço executadas ao longo do tempo pela FURB</td>
+									<td>A1) Adquirir dados junto a DAEX, PROPEX, Instituto Furb, 
+COPLAN e reserva de salas (bancas tccs, dissertações, teses, workshops, 
+semanas acadêmicas, eventos específicos de comunidades internas e 
+externas, etc).
+<br>A2) Limpar e normalizar a base de dados</td>
+									<td>Computação, internet, IDE de desenvolvimento, banco de dados, linguagem de programação</td>
+									<td>- Quantidade de informações adquiridas
+<br>- Armazenamento das informações coletadas das bases de dados 
+<br>- Base de dados consistente e sem informações corrompidas  </td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Produzir relatório técnico sobre a atuação e os impactos da FURB na comunidade
+<br>
+<br>
+<br></td>
+									<td>A3) Realizar o agrupamento, interpretação e 
+disponibilização das informações considerando 6 dimensões de análise: 
+(i) Demanda Agregada; (ii) Ambiente Cultural; (iii) Dinamização do 
+Ambiente Empresarial; (iv) Geração de Emprego e Renda; (v) Dinamização 
+das Economias Regionais e (vi) Modificação da Infraestrutura Local.</td>
+									<td>Computador, projetor, internet e materiais de expediente</td>
+									<td>- Utilização do relatório em decisões estratégicas tomadas 
+pelos gestores da FURB (ações de marketing, laçamento de editais, etc)</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Construir uma plataforma para divulgação dos projetos/eventos realizados/organizados na FURB</td>
+									<td>A4) Especificar, implementar, testar e publicar a plataforma de comunicação</td>
+									<td>Computador, servidor de hospedagem, banco de dados, IDE de desenvolvimento e linguagem de programação</td>
+									<td>- Disponibilização da plataforma de comunicação para a comunidade em geral
+<br>- Quantidade de acesso e feedback das avaliações realizadas através de avaliação qualitativa </td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Criar um esboço de formulário de avaliação e comparação dos projetos de extensão</td>
+									<td>A5) Estabelecer as variáveis que permitam quantificar as ações e os impactos gerados pelos projetos de extensão</td>
+									<td>Computador, internet e materiais de expediente</td>
+									<td>- Principais variáveis identificadas
+<br>- Índice de impacto formulado e calculado
+<br>- Disponibilização do formulário de avaliação</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Realizar oficinas com grupos que possuem pouca interação com a universidade </td>
+									<td>A6) Identificar os grupos com pouca interação com a FURB. 
+Posteriormente, realizar encontros para apresentar os trabalhos/projetos
+ existentes e as possíveis formas de interação com a universidade</td>
+									<td>Materiais didáticos instrucionais, notebooks, projetores multimídia, sala de reuniões. </td>
+									<td>- Número de oficinas realizadas 
+<br>- Número de participantes por oficina e avaliação dos participantes através de instrumento a ser desenvolvido para a aplicação. </td>
+								</tr>
+
+								<tr class="b">
+
+									<td>Redigir um artigo científico </td>
+									<td>A7) Redigir um artigo científico e submetê-lo a um periódico especializado </td>
+									<td>Computador e internet</td>
+									<td>- Submissão ou aceite do artigo</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>Apresentar projeto na MIPE</td>
+									<td>A8) Elaborar materiais (pôster e vídeo) demonstrando as 
+atividades realizadas e os resultados preliminares do projeto e 
+apresentá-la na MIPE 2022.</td>
+									<td>Computador, internet e projetor</td>
+									<td>- Parecer dos avaliadores que avaliam os projetos apresentados.</td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Cronograma e Procedimentos</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+
+									<th align="left">Atividade</th>
+									<th align="left">Início</th>
+									<th align="left">Duração (meses)</th>
+									<th align="left">Responsável</th>
+									<th align="left">Membros Vinculados</th>
+									<th align="left">Procedimentos Metodológicos</th>
+									<th align="left">Local de Realização</th>
+								</tr>
+
+								<tr class="a">
+
+									<td>A1) Adquirir dados junto a DAEX, PROPEX, Instituto Furb, 
+COPLAN e reserva de salas (bancas tccs, dissertações, teses, workshops, 
+semanas acadêmicas, eventos específicos de comunidades internas e 
+externas, etc). </td>
+									<td>05/2022</td>
+									<td class="centralizado">1</td>
+									<td>Aurélio Faustino Hoppe (5h)</td>
+									<td>Henriette Damm (3h)</td>
+									<td>Os professores irão estabelecer:
+<br>- Quais bases de dados serão utilizadas de acordo com os objetivos propostos no projeto
+<br>- Articular com os setores responsáveis, via reuniões, o acesso as informações e como elas serão coletadas. Serão
+<br>- Realizar a anonimização via programação, obedecendo a Lei Geral de Proteção de Dados Pessoais (LGPD) 
+<br>
+<br>Ao final desta atividade, espera-se ter um conjunto de bases de 
+dados para estabelecer as ações realizadas pelas universidade junto a 
+comunidade em geral</td>
+									<td>Salas A-208 (DTI), A-218 (PROPEX), I-602 (DAEX), A-205 (COPLAN)</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>A2) Limpar e normalizar a base de dados</td>
+									<td>06/2022</td>
+									<td class="centralizado">1</td>
+									<td>Aurélio Faustino Hoppe (5h)</td>
+									<td>Henriette Damm (3h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Os professores participantes desta atividade irão 
+acompanhar o processo de limpeza e normalização dos dados. Também irão 
+indicar técnicas e algoritmos a serem utilizados, assim como 
+explicando-os caso seja necessário.
+<br>
+<br>Os bolsistas (FUMDES/Art 171 e Artigo 170) e estudantes da extensão 
+curricular utilizarão a linguagem Python e os recursos da biblioteca 
+pandas para eliminação de dados que representam ruídos e que podem 
+influenciar negativamente na geração ou interpretação dos dados.
+<br>
+<br>Ao final desta atividade, espera-se ter uma base de dados homogênea com informações válidas</td>
+									<td>S-409</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>A3) Realizar o agrupamento, interpretação e 
+disponibilização das informações considerando 6 dimensões de análise: 
+(i) Demanda Agregada; (ii) Ambiente Cultural; (iii) Dinamização do 
+Ambiente Empresarial; (iv) Geração de Emprego e Renda; (v) Dinamização 
+das Economias Regionais e (vi) Modificação da Infraestrutura Local.
+<br>
+<br></td>
+									<td>07/2022</td>
+									<td class="centralizado">2</td>
+									<td>Henriette Damm (3h)</td>
+									<td>Aurélio Faustino Hoppe (5h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Os professores participantes desta atividade irão analisar 
+as informações constantes nas bases de dados, indicando as variáveis a 
+serem observadas e agrupadas de acordo com as dimensões desejadas. Cabe 
+ressaltar que os coordenadores e a população atendida pelos projetos da 
+FURB também irão responder um questionário de avaliação.
+<br>
+<br>Os bolsistas (FUMDES/Art 171 e Artigo 170) e estudantes da extensão 
+curricular irão utilizar os recursos da biblioteca Pandas da linguagem 
+Python para realizar a correlação dos dados. Também serão responsáveis 
+pela quantificação e consultas das informações requisitadas pelos 
+professores para realizar a interpretação dos dados de acordo com as 
+dimensões estabelecidas. Os professores também serão responsáveis pela 
+escrita do relatório técnico sobre a interação entre a FURB e a 
+comunidade
+<br>
+<br>Ao final desta atividade, espera-se ter a caracterização dos 
+impactos gerados pela FURB na forma de um relatório técnico que poderá 
+servir de base para tomada de decisões</td>
+									<td>S-409</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>A4) Especificar, implementar, testar e publicar a plataforma de comunicação</td>
+									<td>09/2022</td>
+									<td class="centralizado">2</td>
+									<td>Aurélio Faustino Hoppe (4h)</td>
+									<td>Henriette Damm (1h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Nesta atividade, todos os membros do projeto participarão 
+do processo de construção da plataforma de divulgação, definindo quais 
+ações/eventos serão disponibilizadas para a comunidade em geral (bancas 
+de TCCs, dissertações e teses; grupos de pesquisas e seus coordenadores,
+ workshops, semanas acadêmicas, etcs). Além disso, também será 
+necessário definir a aparência, navegação e forma de hospedagem.
+<br>
+<br>Os bolsistas (remunerados e voluntários) e estudantes da extensão 
+curricular deverão construir a plataforma através da linguagem Python e o
+ banco de dados MySQL.
+<br>
+<br>Ao final desta atividade, espera-se disponibilizar ter uma 
+plataforma ao qual a comunidade possa ver de forma facilitada as 
+ações/projetos realizados dentro da universidade, quem são os 
+responsáveis e quais são as formas de participação e contribuição. </td>
+									<td>S-409</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>A5) Estabelecer as variáveis que permitam quantificar as ações e os impactos gerados pelos projetos de extensão</td>
+									<td>09/2022</td>
+									<td class="centralizado">2</td>
+									<td>Henriette Damm (2h)</td>
+									<td>Aurélio Faustino Hoppe (1), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Os professores participantes desta atividade irão definir o
+ que se pretende quantificar e como?, Quais são variáveis permitem 
+efetuar a comparação de projetos de áreas distintas. Inicialmente, serão
+ selecionados 3 projetos de áreas distintas afim de observar se aquilo 
+que foi definido estabelece o impacto e importância para a comunidade e 
+desenvolvimento regional.
+<br>
+<br>Os bolsistas (FUMDES/Art 171 e Artigo 170) e estudantes da extensão 
+curricular irão acompanhar todo o processo de definição e validação do 
+formulário.
+<br>
+<br>Ao final desta atividade, espera-se ter um esboço de formulário de avaliação e comparação de projetos de extensão.</td>
+									<td>S-409</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>A6) Identificar os grupos com pouca interação com a FURB. 
+Posteriormente, realizar encontros para apresentar os trabalhos/projetos
+ existentes e as possíveis formas de interação com a universidade</td>
+									<td>11/2022</td>
+									<td class="centralizado">1</td>
+									<td>Henriette Damm (3h)</td>
+									<td>Aurélio Faustino Hoppe (5h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Todos a equipe do projetos irão participar desta atividade.
+ A partir do relatório técnico, serão identificados e selecionados 3 
+grupos aos quais a universidade não possui muita interação. A partir 
+isso, os bolsistas (FUMDES/Art 171 e Artigo 170) e estudantes da 
+extensão curricular irão estabelecer encontros para tentar aumentar a 
+aproximação com a universidade. Nos encontros, serão levantadas demandas
+ e posteriormente, oficinas para apresentação das ações existentes na 
+FURB e como tais grupos podem estar participando ou contribuindo.</td>
+									<td>Furb e entidades sociais</td>
+								</tr>
+
+								<tr class="a">
+
+									<td>A7) Redigir um artigo científico e submetê-lo a um periódico especializado </td>
+									<td>12/2022</td>
+									<td class="centralizado">2</td>
+									<td>Aurélio Faustino Hoppe (5h)</td>
+									<td>Henriette Damm (3h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.
+<br></td>
+									<td>Escrever um artigo científico analisando as ações do 
+projeto de extensão. A escrita será realizada em parceria entre 
+professores e bolsistas. Esse artigo será submetido à uma revista ou a 
+um evento científico da área. O acompanhamento da submissão será 
+realizado pelos professores integrantes do projeto. </td>
+									<td>S-409</td>
+								</tr>
+
+								<tr class="b">
+
+									<td>A8) Elaborar materiais (pôster e vídeo) demonstrando as 
+atividades realizadas e os resultados preliminares do projeto e 
+apresentá-la na MIPE 2022.</td>
+									<td>09/2022</td>
+									<td class="centralizado">1</td>
+									<td>Henriette Damm (0,5h)</td>
+									<td>Aurélio Faustino Hoppe (0,5h), Bolsista FUMDES/Art. 171, Bolsistas do Artigo 170 e estudantes da extensão curricular.</td>
+									<td>Sob supervisão dos professores, os bolsistas (FUMDES/Art 
+171 e Artigo 170) e estudantes da extensão curricular irão elaborar a 
+apresentação do projeto na MIPE.</td>
+									<td>S-409</td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item5" class="itemProjeto" onclick="controlaCamada('div5','img5');">
+				<img name="img5" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Equipe
+			</div>
+			<div id="div5">
+				<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr>
+
+						<th align="left">Participação</th>
+						<th align="left">Nome</th>
+						<th align="left">Titulação</th>
+						<th align="left">Depto/Setor</th>
+						<th align="left">Reg.Trabalho</th>
+						<th align="left">Data inicial</th>
+						<th align="left">Meses</th>
+						<th align="left">Horas <br> Solicitadas</th>
+						<th align="left">Horas <br> Pagas</th>
+						<th align="left">Valor</th>
+					</tr>
+
+					<tr class="a">
+
+						<!-- Participação -->
+						<td>Coordenador</td>
+						<!-- Nome -->
+						<td>Aurélio Faustino Hoppe</td>
+						<!-- Titulação -->
+						<td>
+
+							Mestrado<br>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Departamento de Sistemas  e Computação</td>
+						<!-- Regime de Trabalho -->
+						<td>TEMPO INTEGRAL</td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/05/2022</td>
+						<!-- Meses -->
+						<td class="centralizado">9</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							5
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							5
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td>Atividade:</td>
+						<td colspan="10">O professor coordenador cumprirá sua carga 
+horária através das seguintes atividades: (a) organização, articulação e
+ execução das atividades do projeto; (b) participação nas reuniões de 
+extensionistas (c) Receber e auxiliar a selecionar discentes bolsistas 
+oriundos do Programa UNIEDU que atuarão no projeto (c) alinhamento com 
+os setores internos para obtenção dos dados de ensino, pesquisa, 
+extensão e serviços prestados (d) participar de reuniões com 
+coordenadores de projetos e os atendidos (e) elicitação e levantamentos 
+de requisitos para o desenvolvimento da plataforma de divulgação das 
+ações/eventos realizados na FURB (f) definição da linguagem, dos métodos
+ matemáticos e algoritmos para realizar a limpeza, normalização, 
+correlação e visualização dos dados para estabelecer a importância da 
+Furb para o desenvolvimento regional (g) auxiliar na elaboração do 
+formulário de avaliação quantitativa dos projetos de extensão (h) 
+participar das oficinas para divulgação externa dos projetos existentes 
+na FURB para grupos com pouca interação (i) orientações para o 
+desenvolvimento da apresentação do projeto na MIPE (j) escrita e 
+submissão de um artigo científico em periódico ou evento da área.</td>
+					</tr>
+
+					<tr class="a">
+						<td>Acompanhamento e Avaliação:</td>
+						<td colspan="10">Todas as ações do projeto serão planejadas, 
+executadas e avaliadas a partir das deliberações realizadas em reunião 
+envolvendo todos os membros da equipe. Paralelamente, cada atividade 
+será avaliada pelo professor responsável, bolsistas responsáveis e 
+parceiros/projetos/pessoas/grupos atendidos.</td>
+					</tr>
+
+					<tr class="b">
+
+						<!-- Participação -->
+						<td>Extensionista</td>
+						<!-- Nome -->
+						<td>Henriette Damm</td>
+						<!-- Titulação -->
+						<td>
+
+							Mestrado<br>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Departamento de Matemática</td>
+						<!-- Regime de Trabalho -->
+						<td>TEMPO INTEGRAL</td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/05/2022</td>
+						<!-- Meses -->
+						<td class="centralizado">9</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							3
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							3
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td>Atividade:</td>
+						<td colspan="10">A professora extensionista poderá cumprir sua 
+carga horária através das seguintes atividades: (a) organização, 
+articulação e execução das atividades; (b) elaboração de questionários 
+para levantamentos de dados junto aos setores da universidade (DAEX, 
+PROPEX e COPLAN); (c) geração do relatório técnico sobre os dados 
+coletados; (d) auxiliar na elaboração do formulário de avaliação 
+quantitativa dos projetos de extensão (e) participar das oficinas para 
+divulgação externa dos projetos existentes na FURB para grupos com pouca
+ interação; (f) escrita e submissão de um artigo científico em periódico
+ ou evento da área; (g) orientações para o desenvolvimento da 
+apresentação do projeto na MIPE.</td>
+					</tr>
+
+					<tr class="b">
+						<td>Acompanhamento e Avaliação:</td>
+						<td colspan="10">A avaliação será dada pela execução das 
+atividades conforme o cronograma previsto acima e pela geração de 
+informações, correlações e relatórios que irão permitir a observância 
+dos impactos da FURB para o desenvolvimento regional. Assim como, no que
+ diz respeito a construção de formulário de análise e comparação de 
+projetos de extensão, que irão auxiliar no processo de tomada de 
+decisões ou direcionamento de ações que atendam determinadas demandas da
+ comunidade regional.</td>
+					</tr>
+
+					<tr class="a">
+
+						<!-- Participação -->
+						<td>Bolsista FUMDES/Artigo 171 (EXTENSÃO)</td>
+						<!-- Nome -->
+						<td>Kauê Felipe Soares Beduschi</td>
+						<!-- Titulação -->
+						<td>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Fundação Universidade Regional de Blumenau</td>
+						<!-- Regime de Trabalho -->
+						<td></td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/05/2022</td>
+						<!-- Meses -->
+						<td class="centralizado">21</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							20
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							 
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							 
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td>Atividade:</td>
+						<td colspan="10">Destina-se à estudantes extensionistas 
+FUMDES/Artigo 170, observando: a)PREPARAÇÃO PARA O TRABALHO: (i) [maio a
+ dez/2022] Entender o funcionamento dos projetos de pesquisa, extensão e
+ prestação de serviços proporcionados pela FURB; (ii) [maio a dez/2022] 
+Estudar Python, técnicas e algoritmos computacionais; b)COMPETÊNCIAS A 
+DESENVOLVER: CONHECIMENTO - Valorizar e utilizar os conhecimentos 
+adquiridos ao longo da sua trajetória acadêmica; PENSAMENTO CIENTÍFICO, 
+CRÍTICO E CRIATIVO ¿ buscar conhecimento através de mecanismos de busca 
+na internet; COMUNICAÇÃO ¿ se expressar e partilhar informações de forma
+ clara e precisa; RESPONSABILIDADE E CIDADANIA - Agir pessoal e 
+coletivamente com autonomia, responsabilidade, flexibilidade, 
+resiliência e determinação, tomando decisões com base em princípios 
+éticos, democráticos, inclusivos, sustentáveis e solidários; c) 
+ATIVIDADES A DESENVOLVER: O bolsista FUMDES/Artigo 171 completará suas 
+20 horas semanais através do desenvolvimento das seguintes atividades: 
+(i) [maio a dez/2022] auxiliar na preparação e execução das atividades; 
+(ii) [junho a agosto/2022] realização o processo de montagem, limpeza, 
+correlação e apresentação dos dados; (iii) [setembro a novembro/2022] 
+desenvolvimento da plataforma para divulgação das ações realizadas na 
+FURB (workshop, eventos, semanas acadêmicas, bancas de TCCs, 
+dissertações e teses); (iv) [setembro/2022] apresentar as ações 
+desenvolvidas no projeto na MIPE; (v) [Dezembro/2022] auxiliar na 
+realização das oficinas com grupos de pouca interação com a FURB. Além 
+disso, o bolsista também deverá auxiliar na orientação dos demais 
+acadêmicos extensionistas voluntários, estudante de extensão curricular e
+ bolsistas de pesquisa do Art. 170 na contribuição para elaborar as 
+atividades solicitadas [maio a dez/2022].</td>
+					</tr>
+
+					<tr class="a">
+						<td>Acompanhamento e Avaliação:</td>
+						<td colspan="10">A avaliação acontecerá por meio do diário técnico
+ a ser preenchido mensalmente registrando resultados da execução das 
+atividades conforme o cronograma estipulado, e o trabalho do bolsista 
+será acompanhado pelos professores responsáveis onde serão avaliados os 
+seguintes aspectos relacionados as atividades propostas: 
+comprometimento, pontualidade, organização, proatividade, 
+responsabilidade, desenvoltura no tratamento com os participantes das 
+ações e participação na MIPE.</td>
+					</tr>
+
+					<tr class="b">
+
+						<!-- Participação -->
+						<td>Acadêmico Extensionista Voluntário</td>
+						<!-- Nome -->
+						<td> </td>
+						<!-- Titulação -->
+						<td>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Fundação Universidade Regional de Blumenau</td>
+						<!-- Regime de Trabalho -->
+						<td></td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/05/2022</td>
+						<!-- Meses -->
+						<td class="centralizado">21</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							20
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							 
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							 
+						</td>
+					</tr>
+
+					<tr class="b">
+						<td>Atividade:</td>
+						<td colspan="10">Destina-se à estudantes extensionistas 
+voluntários (AACCs) e Bolsista do Artigo 170. O projeto pode incorporar 
+até no máximo cinco(5) estudantes extensionistas voluntários de extensão
+ no semestre, cada um desenvolvendo vinte (20) horas de atividades 
+(semestrais). Com preferência para alunos do curso de Computação, 
+Sistemas, Matemática, Publicidade e Propaganda, Arquitetura e 
+Engenharias. a) PREPARAÇÃO PARA O TRABALHO: i) [maio a dez/2022] 
+Entendimento do funcionamento dos projetos de pesquisa, extensão e 
+prestação de serviços oferecidos pela FURB; ii) [maio a dez/2022] 
+Estudar sobre aplicação de pesquisas e levantamento estatístico; iii) 
+[maio a dez/2022] Estudar sobre tabulação de dados; 
+b)COMPETÊNCIAS A DESENVOLVER: CONHECIMENTO - Valorizar e utilizar os 
+conhecimentos adquiridos ao longo da sua trajetória acadêmica; 
+PENSAMENTO CIENTÍFICO, CRÍTICO E CRIATIVO ¿ buscar conhecimento através 
+de mecanismos de busca na internet; COMUNICAÇÃO ¿ se expressar e 
+partilhar informações de forma clara e precisa; RESPONSABILIDADE E 
+CIDADANIA - Agir pessoal e coletivamente com autonomia, 
+responsabilidade, flexibilidade, resiliência e determinação, tomando 
+decisões com base em princípios éticos, democráticos, inclusivos, 
+sustentáveis e solidários; c) ATIVIDADES A DESENVOLVER: (i) [maio a 
+dez/2022] elaboração e aplicação dos questionários para levantamento de 
+informações com coordenadores e atendidos por projetos da FURB; (ii) 
+[maio a dez/2022] tabulação dos dados obtidos; (iii)[maio a dez/2022] 
+auxiliar no desenvolvimento da plataforma de divulgação das ações 
+realizadas pela FURB e que a comunidade pode ter acesso; (iv)[maio a 
+dez/2022] auxiliar nos testes de usabilidade da plataforma; (v) [maio a 
+dez/2022] auxiliar ou preparar materiais para as oficinas com grupos que
+ não são atendidos pelos projetos. Para tanto, espera-se as seguintes 
+habilidades do bolsista participante: organização, word, excel ou de 
+programação.</td>
+					</tr>
+
+					<tr class="b">
+						<td>Acompanhamento e Avaliação:</td>
+						<td colspan="10">O bolsista será avaliado quanto ao 
+comprometimento, pontualidade, organização, proatividade, 
+responsabilidade e a qualidade do trabalho desenvolvido. Além disso, as 
+atividades também serão analisados nas reuniões do projeto e ao final de
+ sua participação no Projeto, destacando todas as atividades no diário 
+de atividades realizadas, incluindo um tópico com o aprendizado 
+construído/adquirido.</td>
+					</tr>
+
+					<tr class="a">
+
+						<!-- Participação -->
+						<td>Estudante - Extensão Curricular</td>
+						<!-- Nome -->
+						<td> </td>
+						<!-- Titulação -->
+						<td>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Fundação Universidade Regional de Blumenau</td>
+						<!-- Regime de Trabalho -->
+						<td></td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/05/2022</td>
+						<!-- Meses -->
+						<td class="centralizado">21</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							20
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							 
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							 
+						</td>
+					</tr>
+
+					<tr class="a">
+						<td>Atividade:</td>
+						<td colspan="10">Destina-se à estudantes da extensão curricular 
+dos cursos de Ciência da Computação e Sistemas de Informação (10 
+acadêmicos), Matemática (3 acadêmicos), Arquitetura (2 acadêmicos), 
+Engenharias (3 acadêmicos) e Publicidade e Propaganda (2 acadêmicos), 
+possibilitando a participação de acadêmicos matriculados nas disciplina 
+de Estatística, Projeto de Software, Processamento de Imagens, Realidade
+ Virtual, Aprendizado de Máquina, TCC-I e TCC-II dos cursos de Ciência 
+da Computação e Sistemas de Informação, Aritmética e Álgebra Elementar, 
+Álgebra Linear e Estatística I e II do curso de Matemática, entre outras
+ disciplinas da grade curricular dos demais cursos citados. a)PREPARAÇÃO
+ PARA O TRABALHO: (i) [maio a dez/2002] Estudar sobre o funcionamento 
+dos projetos de pesquisa, extensão e prestação de serviços; (ii) [maio a
+ dez/2002] Linguagens de programação; (iii) [maio a dez/2002] métodos 
+estatísticos; (iv) [maio a dez/2002] Word, Excel, PowerPoint. O bolsista
+ da extensão curricular poderá participar das ações previstas no projeto
+ auxiliando no: (i) [maio a dezembro/2022] desenvolvimento e aplicação 
+de questionários; (ii) [maio a dezembro/2022] na montagem, limpeza, 
+correlação e apresentação da base de dados que será utilizadas para 
+geração das informações que serão utilizadas para a caracterização da 
+FURB no contexto regional; (iii) [maio a dezembro/2022] na produção de 
+materiais e execução das oficinas para apresentação das ações 
+desenvolvidas pela FURB e aos quais a comunidade pode participar; (iv) 
+[maio a dezembro/2022] testes da plataforma de divulgação. </td>
+					</tr>
+
+					<tr class="a">
+						<td>Acompanhamento e Avaliação:</td>
+						<td colspan="10">A avaliação acontecerá por meio do cumprimento 
+das atividades conforme o cronograma estipulado, sendo acompanhado pelos
+ professores responsáveis que observaram: comprometimento, pontualidade,
+ organização, proatividade, responsabilidade, desenvoltura no tratamento
+ com os participantes das ações e participação na MIPE.</td>
+					</tr>
+
+					<tr class="b">
+
+						<!-- Participação -->
+						<td>Coordenador</td>
+						<!-- Nome -->
+						<td>Aurélio Faustino Hoppe</td>
+						<!-- Titulação -->
+						<td>
+
+							Mestrado<br>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Departamento de Sistemas  e Computação</td>
+						<!-- Regime de Trabalho -->
+						<td>TEMPO INTEGRAL</td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/02/2023</td>
+						<!-- Meses -->
+						<td class="centralizado">12</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							4
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							4
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							
+						</td>
+					</tr>
+
+					<tr class="a">
+
+						<!-- Participação -->
+						<td>Extensionista</td>
+						<!-- Nome -->
+						<td>Henriette Damm</td>
+						<!-- Titulação -->
+						<td>
+
+							Mestrado<br>
+
+						</td>
+						<!-- Depto/setor -->
+						<td>Departamento de Matemática</td>
+						<!-- Regime de Trabalho -->
+						<td>TEMPO INTEGRAL</td>
+						<!-- Data inicial -->
+						<td class="centralizado">01/02/2023</td>
+						<!-- Meses -->
+						<td class="centralizado">12</td>
+						<!-- Horas solicitadas -->
+						<td class="centralizado">
+							4
+						</td>
+						<!-- Horas pagas -->
+						<td class="centralizado">
+							4
+						</td>
+						<!-- Valor  -->
+						<td class="centralizado">
+							
+						</td>
+					</tr>
+
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item6" class="itemProjeto" onclick="controlaCamada('div6','img6');">
+				<img name="img6" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Discriminação da Despesa
+			</div>
+			<div id="div6">
+				<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr>
+
+						<th align="left">Item</th>
+						<th align="left">Valor</th>
+						<th align="left">Descrição</th>
+					</tr>
+
+					<tr class="b">
+
+						<td>Horas da equipe</td>
+						<td align="right"></td>
+						<td></td>
+					</tr>
+
+					<tr class="a">
+
+						<td>Pessoal</td>
+						<td align="right">0,00</td>
+						<td>Estava exigindo fonte de receita para aceitar a submissão. Cadastrei esta daqui.</td>
+					</tr>
+
+					<tr class="b">
+
+						<td><b>Valor Total</b></td>
+						<td align="right"><b></b></td>
+						<td></td>
+					</tr>
+
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr>
+						<th align="left">
+
+							Relação Custo/Pessoas Atendidas: 
+						</th>
+					</tr>
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+			<div id="item7" class="itemProjeto" onclick="controlaCamada('div7','img7');">
+				<img name="img7" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Discriminação da Receita
+			</div>
+			<div id="div7">
+				<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr>
+
+						<th align="left">Fonte</th>
+						<th align="left">Item</th>
+						<th align="left">Valor</th>
+						<th align="left">Descrição</th>
+					</tr>
+
+					<tr class="a">
+
+						<td>
+							Departamento - Departamento - Sistemas e Computação 
+						</td>
+						<td>Contribuição</td>
+						<td align="right"></td>
+						<td>Pagamento das horas de extensão do professor Aurélio Hoppe</td>
+					</tr>
+
+					<tr class="b">
+
+						<td>
+							Departamento - Departamento - Matemática 
+						</td>
+						<td>Contribuição</td>
+						<td align="right"></td>
+						<td>Pagamento das horas de extensão para a professora Henriette Damm</td>
+					</tr>
+
+					<tr class="a">
+
+						<td><b>Valor Total</b></td>
+						<td></td>
+						<td align="right"><b></b></td>
+						<td></td>
+					</tr>
+
+				</tbody></table>
+				<table width="100%" cellspacing="1" cellpadding="1">
+					<tbody><tr><th colspan="2">Resumo Receita/Despesa</th></tr>
+					<tr>
+						<td colspan="2">
+							<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+								<tbody><tr>
+									<th align="left">Receita</th>
+									<th align="left">Despesa</th>
+									<th align="left">Saldo</th>
+								</tr>
+
+								<tr class="a">
+									<td></td>
+									<td></td>
+
+									<td class="alerta"></td>
+
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div id="item8" class="itemProjeto" onclick="controlaCamada('div8','img8');">
+				<img name="img8" src="SIPEX%20-%20Projetos%20de%20Extens%C3%A3o_arquivos/hide.jpg" width="20" height="13" border="0"> Observação
+			</div>
+			<div id="div8">
+				<table class="fundo" width="100%" cellspacing="1" cellpadding="1">
+
+					<tbody><tr class="b">
+						<td nowrap="nowrap"><b>Observação:</b></td>
+						<td>BONIFICAÇÕES:
+<br>1) Interdisciplinaridade: docentes de 2 departamentos distintos: Matemática; Sistemas e Computação
+<br>2) Parcerias institucionais: 2 cartas externas e 3 internas
+<br>
+<br>LATTES(4 anos de experiência):
+<br>http://lattes.cnpq.br/0369451388194117
+<br></td>
+					</tr>
+
+				</tbody></table>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+<table width="100%">
+	<tbody><tr>
+
+		<td align="center">
+			<a href="https://www.furb.br/pqex/projeto/imprimeProjeto.view?nrAnoProjeto=2022&amp;nrProjeto=196&amp;nmRelatorio=pqex_form10" target="impressaoProjeto" id="impressaoProjeto2" class="cssbutton">Imprimir Projeto</a>
+		</td>
+
+		<td align="center">
+			
+			
+				<a href="https://www.furb.br/pqex/ProjetoManutencao/download.view?attachmentGroup=projeto&amp;attachmentID=12299" target="Anexo" class="cssbutton">Visualizar Anexo</a>
+			
+		</td>
+
+	</tr>
+</tbody></table></td>
+	            </tr>
+	            <tr><td colspan="2" width="100%" height="25"><table width="100%" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+	        <td align="center">
+			    <a href="http://www.furb.br/">Copyright © 2010 FURB - Universidade Regional de Blumenau.</a>
+			    <br>
+			    Divisão de Tecnologia da Informação
+			    <br>
+			    Todos os direitos reservados. 
+		    </td>
+		</tr>    
+	</tbody>
+</table>	
+<div class="clear">
+    <hr>
+</div>
+</td></tr>
+	        </tbody>
+	    </table>
+    
+ </body></html>

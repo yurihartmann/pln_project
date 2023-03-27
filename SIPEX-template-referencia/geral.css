@@ -1,0 +1,360 @@
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+.glossymenu {
+    list-style-type: none;
+    margin: 1px 0;
+    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 145px;
+    border: 1px solid #9A9A9A;
+    border-bottom-width: 0;
+    color: #4682B4;
+    background-color: #cce4ff; 
+}
+
+.glossymenu li a {
+    background-color: #cce4ff; 
+    font: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color:  black;
+    display: block;
+    width: 145px;
+    padding: 3px 0;
+    padding-left: 1px;
+    text-decoration: none;
+}
+
+.glossymenu li a { /*IE only. Actual menu width minus left padding of A element (10px) */
+    width: 145px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active {
+    color: black;
+}
+
+.glossymenu li a:hover {
+	background-color: #99c9ff;
+}
+
+.grupoMenu {
+	display: block;
+    margin: 1px 0;
+    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 145px;
+    border: 1px solid #9A9A9A;
+    border-bottom-width: 0;
+    color: white;
+    background-color: #004a99;      
+}
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+.cssbutton:link  {
+    background-color: #e3f48e;
+    border: 2px #e3f48e;
+	border-style: outset;
+    padding: 1px 4px;
+    color: #36a;
+    text-decoration: none;
+	font-family: sans-serif, "Times New Roman";
+    font-size: 12px;
+}
+
+.cssbutton:visited {
+    background-color: #e3f48e;
+    border: 2px #e3f48e;
+	border-style: outset;
+    padding: 1px 4px;
+    color: #36a;
+    text-decoration: none;
+	font-family: sans-serif, "Times New Roman";
+    font-size: 12px;
+}
+
+.cssbutton:hover {
+    border-style: inset;
+    background-color: #D1EC4C;
+    padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton:active {
+    background-color: #e3f48e;
+}
+
+.itemProjeto {
+    background-image: url(../img/glossyback3.gif);
+    font: bold 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    width: auto;
+    padding: 3px 0;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+table {
+    background-color: White;
+    border: none;
+    border-width: 1px 1px 1px 1px;
+}
+
+caption {
+    background-image: url(../img/glossyback3.gif);
+    font: bold 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color: black;
+    width: inherit;
+    padding: 3px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.label {
+    font-family: sans-serif, "Times New Roman";
+    font-size: smaller;
+    font-weight: normal;
+    color: #4B4B4B;
+    border: none;
+    background: #F6F8F9;
+}
+
+th {
+    border: none;
+    background-color: #A7A8A1;
+    font-family: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+th.direita {
+    text-align: right;
+}
+
+.th {
+    border: none;
+    color: #4B4B4B;
+    background: white;
+    font-family: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+td {
+    font: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    border: none;
+}
+
+td.centralizado {
+    text-align: center;
+}
+
+td.furb {
+    background: white;
+}
+
+td.cinza {
+    background: Silver;
+}
+
+td.alerta {
+	color: #E34234;
+	font-weight: bold;
+}
+tr.a {
+    background-color: #FAFDFF;
+}
+
+tr.b {
+    background-color: #F4F5F8;
+}
+
+.linhaFocada {
+    background: #FFFFD4;
+}
+
+.welcome {
+    color: #4B4B4B;
+    font-family: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: transparent;
+}
+
+.alertaInadimplencia {
+    color: red;
+    font-family: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: transparent;
+}
+
+title {
+    color: White;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    text-align: left;
+    background: transparent;
+}
+
+select {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    background: #F6F6F6;
+}
+
+h1 {
+    padding: 4px 4px 4px 6px;
+    border: 0px #999;
+    color: #36a;
+    font-weight: 900;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    padding: 4px 4px 4px 6px;
+    border: 0px #999;
+    color: #36a;
+    background-color: #cbdced;
+    font-weight: 900;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    padding: 4px 4px 4px 6px;
+    border: 1px solid #aaa;
+    color: #36a;
+    background-color: #cbdced;
+    font-weight: normal;
+    font-size: medium;
+}
+
+h2.nomeSistema {
+    padding: 4px 4px 4px 6px;
+    border: none;
+    color: #103572;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 20px;;
+    font-family: Verdana, sans-serif;    
+}
+
+a, a:link {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Verdana, sans-serif;
+    color: #36a;
+    font-size: smaller;
+}
+
+input.radio {
+    background: White;
+}
+
+input.checkbox {
+    background: White;
+}
+
+input.submit {
+    background: White;
+    border-style: ridge;
+    text-align: center;
+    width: auto;
+    border: outset;
+    font-family: Verdana, sans-serif;
+    font-family: bold;
+}
+
+input.button {
+    background: White;
+    border-style: ridge;
+    text-align: center;
+    width: auto;
+    border: outset;
+    font-family: Verdana, sans-serif;
+    font-family: bold;
+}
+
+input.text {
+    border-left: 1px solid Gray;
+    border-top: 1px solid Gray;
+    border-bottom: 1px solid Gray;
+    border-right: 1px solid Gray;
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+    background: White;
+}
+
+input.password {
+    border-left: 1px solid Gray;
+    border-top: 1px solid Gray;
+    border-bottom: 1px solid Gray;
+    border-right: 1px solid Gray;
+    background: White;
+}
+
+#dhtmltooltip {
+	position: absolute;
+	font-family: verdana, arial;
+	font-size: 10px;
+	color: #333399;
+	font-weight: normal;
+	width: 150px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: #F2C8F9;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#poweredBy {
+    text-align: center;
+    font-size: xx-small;
+}
+
+#poweredBy img {
+    display: block;
+    margin: 20px 0 20px 17px;
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+}
+
+.section {
+    padding: 4px;
+}
+
+.labels {
+    text-align: right;
+}
+
+div.buttonPanel {
+    position: relative;
+    top: 20px;
+    padding: 4px 4px 4px 6px;
+    color: Navy;
+    background-color: #cbdced;
+}
+
+.errors {
+    color: Red;
+}
+#banner {
+  border-bottom: 1px solid #fff;
+}
+#banner img {
+  border: none;
+}
+.xleft, #organizationLogo img{
+  float:left;
+}
+div.clear{
+  clear:both;
+  visibility: hidden;
+}
+div.clear hr{
+  display: none;
+}
