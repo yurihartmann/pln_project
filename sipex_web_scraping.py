@@ -8,25 +8,19 @@ from selenium.webdriver.common.by import By
 
 class SipexWebScraping:
 
+    MODALIDADE_X_PATH = '//*[@id="div2"]/table[1]/tbody/tr[1]/td[2]'
+
     DATA_TO_SEARCH = {
-        'modalidade': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[1]/td[2]',
-        'titulo': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[2]/td[2]/b',
-        'autor': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[3]/td[2]/b',
-        'titulacao_autor': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[4]/td[2]/table/tbody/tr[1]/td[2]',
-        'cargo': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[4]/td[2]/table/tbody/tr[2]/td[2]',
-        'departamento_setor': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[4]/td[2]/table/tbody/tr[3]/td[2]',
-        'email': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[4]/td[2]/table/tbody/tr[4]/td[2]',
-        'email_furb': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[4]/td[2]/table/tbody/tr[5]/td[2]',
-        'site_projeto': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[6]/td[2]/a',
-        'resumo': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[7]/td[2]',
-        'departamento_instituto': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[1]/tbody/tr[8]/td[2]',
-        'palavras_chaves': '/html/body/table/tbody/tr[3]/td[2]/table[2]/tbody/tr[3]/td/div[2]/table[2]/tbody/tr[2]/td/table/tbody/tr[2]/td'
+        'titulo': '//*[@id="div2"]/table[1]/tbody/tr[2]/td[2]',
+        'departamento_setor': '//*[@id="div2"]/table[1]/tbody/tr[8]/td[2]',
+        'resumo': '//*[@id="div2"]/table[1]/tbody/tr[7]/td[2]',
+        'palavras_chaves': '//*[@id="div2"]/table[2]/tbody/tr[2]/td/table/tbody/tr[2]/td'
     }
 
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.driver.get("https://www.furb.br/pqex/index.do")
-        sleep(60)
+        sleep(15)
 
     def find_text(self, xpath: str) -> str | None:
         try:
@@ -41,6 +35,11 @@ class SipexWebScraping:
             try:
                 url = f"https://www.furb.br/pqex/projeto/buscaProjeto.view?nrAnoProjeto={ano}&nrProjeto={num}"
                 self.driver.get(url)
+
+                modalidade = self.find_text(self.MODALIDADE_X_PATH)
+
+                if 'Projeto de Extensão - Projeto' not in modalidade:
+                    continue
 
                 data = {}
                 for key, xpath in self.DATA_TO_SEARCH.items():
@@ -69,8 +68,10 @@ class SipexWebScraping:
 
 
 if __name__ == '__main__':
-    for ano in range(2008, 2024):
-        result = SipexWebScraping().get_data(ano=ano, numeros_de_procura=300)
+    sipex = SipexWebScraping()
+
+    for ano in range(2022, 2023):
+        result = sipex.get_data(ano=ano, numeros_de_procura=300)
 
         with open(f'data/{ano}.json', 'w') as fp:
             json.dump(result, fp)
