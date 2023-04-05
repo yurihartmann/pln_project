@@ -112,7 +112,7 @@ class SipexWebScraping:
 if __name__ == '__main__':
     START_ANO = 2008
     FINAL_ANO = 2022
-    N_DE_PROCURA = 400
+    N_DE_PROCURA = 500
 
     sipex = SipexWebScraping()
 
